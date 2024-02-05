@@ -50,7 +50,7 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="#">Settings 1</a>
                                     </li>
-                                    <li><a href="#">Settings 2</a>
+                                    <li><a href="#">Settings 2ssss</a>
                                     </li>
                                 </ul>
                             </li>
