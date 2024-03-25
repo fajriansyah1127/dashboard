@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -18,45 +18,45 @@
     <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
-	
+
     <!-- bootstrap-progressbar -->
     <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- JQVMap -->
-    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
     <!-- bootstrap-daterangepicker -->
     <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-  </head>
+</head>
 
-  <body class="nav-md">
+<body class="nav-md">
     <div class="container body">
-      <div class="main_container">
+        <div class="main_container">
 
 
-        <!-- Sidebar -->
-        @include('layout.sidebar')
-        <!-- Sidebar -->
+            <!-- Sidebar -->
+            @include('layout.sidebar')
+            <!-- Sidebar -->
 
 
-        <!-- top navigation -->
-        @include('layout.top_nav')
-        <!-- /top navigation -->
+            <!-- top navigation -->
+            @include('layout.top_nav')
+            <!-- /top navigation -->
 
-        <!-- page content -->
-        @yield('content')
-        <!-- /page content -->
+            <!-- page content -->
+            @yield('content')
+            <!-- /page content -->
 
-        <!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-      </div>
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
     </div>
 
     <!-- jQuery -->
@@ -100,111 +100,111 @@
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
 
+
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
     <script>
-    // setup 
-    const data = {
-  labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Juni', 'Juli', 'Agus', 'Sep', 'Okt', 'Nov', 'Des'],
-  datasets: [
-    {
-      label: 'Weekly Sales (Dataset 1)',
-      data: [10, 12, 6, 9, 12, 3, 9, 8, 10, 5, 14, 11],
-      backgroundColor: [
-        'rgba(255, 26, 104, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)',
-        'rgba(0, 0, 0, 0.2)',
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 26, 104, 0.2)'
-      ],
-      borderColor: [
-        'rgba(255, 26, 104, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(153, 102, 255, 1)',
-        'rgba(255, 159, 64, 1)',
-        'rgba(0, 0, 0, 1)',
-        'rgba(255, 99, 132, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 26, 104, 1)'
-      ],
-      borderWidth: 1
-    },
-    {
-      label: 'Weekly Sales (Dataset 2)',
-      data: [10, 12, 6, 9, 12, 3, 9, 8, 10, 5, 14, 11],
-      backgroundColor: [
-        'rgba(255, 26, 104, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)',
-        'rgba(0, 0, 0, 0.2)',
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 26, 104, 0.2)'
-      ],
-      borderColor: [
-        'rgba(255, 26, 104, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(153, 102, 255, 1)',
-        'rgba(255, 159, 64, 1)',
-        'rgba(0, 0, 0, 1)',
-        'rgba(255, 99, 132, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 26, 104, 1)'
-      ],
-      borderWidth: 1
-    }
-  ]
-};
+        // setup 
+        const data = {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Juni', 'Juli', 'Agus', 'Sep', 'Okt', 'Nov', 'Des'],
+            datasets: [{
+                    label: 'Target',
+                    data: [10, 12, 6, 9, 12, 3, 9, 8, 10, 5, 14, 11],
+                    backgroundColor: [
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)',
+                        'rgba(0, 123, 255, 0.9)'
+                    ],
+                    borderWidth: 1
+                },
+                {
+                    label: 'Realisasi',
+                    data: [10, 12, 6, 9, 12, 3, 9, 8, 10, 5, 14, 11],
+                    backgroundColor: [
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)'
+                    ],
+                    borderColor: [
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)',
+                        'rgba(64, 64, 64, 1.0)'
+                    ],
+                    borderWidth: 1
+                }
+            ]
+        };
 
-// config 
-const config = {
-  type: 'bar',
-  data,
-  options: {
-    maintainAspectRatio: false, // Menonaktifkan aspek rasio
-    scales: {
-      y: {
-        beginAtZero: true
-      }
-    }
-  },
-  // Mengatur tinggi dan lebar grafik
-  // Sesuaikan dengan kebutuhan Anda
-  // Contoh: height: 200, width: 400
-  height: 200,
-  width: 400,
-};
+        // config 
+        const config = {
+            type: 'bar',
+            data,
+            options: {
+                maintainAspectRatio: true, // Menonaktifkan aspek rasio
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            },
+            // Mengatur tinggi dan lebar grafik
+            // Sesuaikan dengan kebutuhan Anda
 
-// render init block
-const myChart = new Chart(
-  document.getElementById('myChartdashboard'),
-  config
-);
+        };
+
+        // render init block
+        const myChart = new Chart(
+            document.getElementById('myChartdashboard'),
+            config
+        );
 
 
-    // Instantly assign Chart.js version
-    const chartVersion = document.getElementById('chartVersion');
-    chartVersion.innerText = Chart.version;
+        // Instantly assign Chart.js version
+        const chartVersion = document.getElementById('chartVersion');
+        chartVersion.innerText = Chart.version;
     </script>
-	
-  </body>
+
+</body>
+
 </html>
