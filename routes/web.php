@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PerformanceController;
+use App\Http\Controllers\MitraController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +21,6 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard.dashboard');
 });
+
+Route::resource('/performance', PerformanceController::class);
+Route::resource('/mitra', MitraController::class);
