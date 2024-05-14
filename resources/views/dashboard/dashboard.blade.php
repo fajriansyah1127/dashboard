@@ -400,7 +400,7 @@
                 </div>
                 <div class="clearfix"></div>
             </footer>
-            <!-- /footer content -->
+            <!-- /footser content -->
         </div>
     </div>
 
